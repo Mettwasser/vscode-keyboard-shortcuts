@@ -21,11 +21,6 @@
     },
     {
         "key": "ctrl+m",
-        "command": "-markdown.extension.editing.toggleMath",
-        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
-    },
-    {
-        "key": "ctrl+m",
         "command": "-editor.action.toggleTabFocusMode"
     },
     {
