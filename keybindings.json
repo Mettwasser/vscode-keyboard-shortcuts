@@ -1,0 +1,62 @@
+[
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "editor.action.selectToBracket"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-markdown.extension.editing.toggleMath",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.focusSideBar",
+        "when": "sideBarFocus == false"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    }
+]
