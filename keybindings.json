@@ -40,5 +40,13 @@
     {
         "key": "ctrl+0",
         "command": "-workbench.action.focusSideBar"
-    }
+    },
+    {
+        "key": "ctrl+j",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
 ]
