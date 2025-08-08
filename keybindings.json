@@ -12,10 +12,6 @@
     },
     // actual settings
     {
-        "key": "ctrl+oem_7",
-        "command": "editor.action.selectToBracket"
-    },
-    {
         "key": "ctrl+n",
         "command": "explorer.newFile"
     },
@@ -29,13 +25,13 @@
         "when": "sideBarFocus"
     },
     {
-        "key": "ctrl+1",
-        "command": "-workbench.action.focusFirstEditorGroup"
-    },
-    {
         "key": "ctrl+m",
         "command": "workbench.action.focusSideBar",
         "when": "sideBarFocus == false"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
     },
     {
         "key": "ctrl+0",
@@ -48,5 +44,41 @@
     {
         "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.toggleTerminal",
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+    },
+    {
+        "key": "ctrl+shift+'",
+        "command": "workbench.action.terminal.new",
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack",
+        "when": "canNavigateBack"
     },
 ]
