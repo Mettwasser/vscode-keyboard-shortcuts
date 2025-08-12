@@ -81,4 +81,12 @@
         "command": "-workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveWithoutFormatting"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.files.saveFiles"
+    },
 ]
